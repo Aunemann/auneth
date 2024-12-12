@@ -1,0 +1,234 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: "Better Signature", cursive;
+    background-color: #1b1b1b;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.logo {
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.nav {
+    display: flex;
+    overflow-x: auto;
+    flex: 1; /* Allow nav to take the remaining space */
+    justify-content: center; /* Center nav items horizontally */
+    align-items: center; /* Center nav items vertically */
+}
+
+.nav button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+.nav button:hover {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #c2c2c2;
+    transition: color 0.5s;
+}
+
+#LogoNav {
+    margin-top: 3px;
+}
+
+/*header .WIP {
+    color: red;
+    font-size: 30px;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+.top-banner {
+    position: relative;
+    height: 100vh;
+    background: url('./Images/Logo/ENZV-AuneThorsen-tower.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.top-banner h1, .top-banner h2 {
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    margin-bottom: 1px;
+    color: white;
+    font-size: 100px;
+    font-family: "Better Signature", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    margin-top: 1px;
+    color: white;
+    font-size: 100px;
+    font-family: "Better Signature", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Fixed Logo */
+.fixed-logo {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.fixed-logo img {
+    width: 100px;
+    margin: 10px;
+    height: auto;
+}
+
+/* Category Section */
+.category {
+    margin: 40px auto;
+    width: 90%;
+    opacity: 1;
+    transform: translateY(50px);
+   /* transition: opacity 0.5s ease, transform 0.5s ease;*/
+}
+
+.category.visible {
+    opacity: 1;
+    /*transform: translateY(0);*/
+}
+
+.category h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+
+/* Image Grid */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Fixed column definition */
+    gap: 20px;
+    padding: 0 10px;
+}
+
+/* Base styles for images */
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 3px solid #bbbbbb;
+    -webkit-box-shadow: -23px 15px 70px -11px rgba(82, 82, 82, 0.51);
+    -moz-box-shadow: -23px 15px 70px -11px rgba(82, 82, 82,0.51);
+    box-shadow: -23px 15px 70px -11px rgba(82, 82, 82,0.51);
+    pointer-events: none;
+    opacity: 0; /* Start with images hidden */
+    transform: translate(0, 0); /* Reset initial transform */
+    animation: fadeIn 2.5s forwards; /* Start fade-in animation */
+}
+
+/* Overlapping Effect */
+.gallery img:nth-child(odd) {
+    transform: translate(-10px, -10px) rotate(-2deg);
+}
+
+.gallery img:nth-child(even) {
+    transform: translate(10px, 10px) rotate(2deg);
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* Final opacity */
+    }
+}
+
+/* Adding classes to delay animations for odd/even images */
+.gallery img:nth-child(odd) {
+    animation-delay: 0.2s; /* Delay for odd images */
+}
+
+.gallery img:nth-child(even) {
+    animation-delay: 0.4s; /* Delay for even images */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* Final opacity */
+    }
+}
+
+/* Adding classes to delay animations for odd/even images */
+.gallery img:nth-child(odd) {
+    animation-delay: 0.2s; /* Delay for odd images */
+}
+
+.gallery img:nth-child(even) {
+    animation-delay: 0.4s; /* Delay for even images */
+}
+p {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #1b1b1b;
+}
+
+/* Font */
+
+@font-face {
+    font-family: "Better Signature";
+    src: url('./Fonts/bettersignature.otf');
+  }

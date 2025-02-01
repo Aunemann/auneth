@@ -5,26 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aune.T Foto</title>
     <link rel="stylesheet" href="./style.css">
-
-    <meta name="description" content= "Aune Thorsen's Photo showcase. I got Birds, F/A-18, F16, Jas-39, Rafale, Red Arrows, Sar Queen, Sk-60, P-8 Poseidon, Vampire, Warbirds, Airliners, Cargo and General Aviation pictures as of now." >
-
-    <!--Google Fonts-->
-    
+    <meta name="description" content="Aune Thorsen's Photo showcase. Explore stunning photos of Birds, F/A-18, F16, Jas-39, Rafale, Red Arrows, Sar Queen, Sk-60, P-8 Poseidon, Vampire, Warbirds, Airliners, Cargo, and General Aviation.">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Indie+Flower&family=Lavishly+Yours&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <!--Favicon-->
-
+    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./Favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./Favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./Favicon/favicon-16x16.png">
-<link rel="manifest" href="./Favicon/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Favicon/favicon-16x16.png">
+    <link rel="manifest" href="./Favicon/site.pnganifest">
 </head>
 <body>
-
     <header id="header">
-        <div class="logo" onclick="scrollToSection('home')"><img id="LogoNav" src="./Images/Logo/LogoV3.png" alt="Aune.T" width="50px" height="auto"></div>
+        <div class="logo" onclick="scrollToSection('home')">
+            <img id="LogoNav" src="./Images/Logo/LogoV3.png" alt="Aune.T" width="50px" height="auto">
+        </div>
         <nav class="nav">
             <button onclick="scrollToSection('Birds')">Birds</button>
             <button onclick="scrollToSection('F18')">F/A-18</button>
@@ -37,269 +33,579 @@
             <button onclick="scrollToSection('P8')">P-8 Poseidon</button>
             <button onclick="scrollToSection('Vampire')">Vampire</button>
             <button onclick="scrollToSection('Warbirds')">Warbirds</button>
-            <button onclick="scrollToSection('Airliners')"> Airliners</button>
-            <button onclick="scrollToSection('Cargo')"> Cargo</button>
-            <button onclick="scrollToSection('General')"> General Aviation</button>
+            <button onclick="scrollToSection('Airliners')">Airliners</button>
+            <button onclick="scrollToSection('Cargo')">Cargo</button>
+            <button onclick="scrollToSection('General')">General Aviation</button>
         </nav>
     </header>
 
-    <!--<div class="fixed-logo">
-        <img src="./Images/Logo/LogoV3.png" alt="Aune.T">
-    </div>-->
-
-   <!-- <header>
-        <h1 class="WIP">Work in progress</h1>
-    </header>-->
-
     <div id="home" class="top-banner">
         <h1>Aune.T</h1>
-        <h2>Fotograf</h2>
+        <h1>Fotograf</h1>
     </div>
-    
 
-    <!-- Category 1 -->
-    <section class="category">
-        <h2>Birds</h2>
-        <div id="Birds" class="gallery">
+<!-- Category 1: Birds -->
+<section class="category">
+    <h2>Birds</h2>
+    <div id="Birds" class="gallery">
+        <div class="image-container">
             <img src="./Images/Categorised/Birds/Birds-1.jpg" alt="Bird 1">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
             <img src="./Images/Categorised/Birds/Birds-2.jpg" alt="Bird 2">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
             <img src="./Images/Categorised/Birds/Birds-3.jpg" alt="Bird 3">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
             <img src="./Images/Categorised/Birds/Birds-4.jpg" alt="Bird 4">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Category 2 -->
-    <section class="category">
-        <h2>F18</h2>
-        <div id="F18" class="gallery">
-            <img src="./Images/Categorised/Military/F18/F18 (1).jpg" alt="Military">
-            <img src="./Images/Categorised/Military/F18/F18 (2).jpg" alt="Military">
-            <img src="./Images/Categorised/Military/F18/F18 (3).jpg" alt="Military">
-            <img src="./Images/Categorised/Military/F18/F18 (4).jpg" alt="Military">
-            <img src="./Images/Categorised/Military/F18/F18 (5).jpg" alt="Military">
-            <img src="./Images/Categorised/Military/F18/F18 (6).jpg" alt="Military">
-            <img src="./Images/Categorised/Military/F18/F18 (7).jpg" alt="Military">
-        </div>
-    </section>
-
-    <!-- Category 3 -->
-    <section class="category">
-        <h2 >F16</h2>
-        <div id="F16" class="gallery">
-            <img src="./Images/Categorised/Military/F16/F16-05.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/F16/F16 (10).jpg" alt="Military">
-            <img src="./Images/Categorised/Military/F16/F16-03.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/F16/F16-06.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/F16/F16-11.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/F16/F16-10.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/F16/F16-02.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/F16/F16 (13).jpg" alt="Military">
-            <img src="./Images/Categorised/Military/F16/F16 (9).jpg" alt="Military">
-            <img src="./Images/Categorised/Military/F16/F16-09.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/F16/F16 (14).jpg" alt="Military">
-            <img src="./Images/Categorised/Military/F16/F16 (17).jpg" alt="Military">
-        </div>
-    </section>
-
-    <!-- Category 4 -->
-        <section class="category">
-            <h2 >Jas-39</h2>
-            <div id="Jas39" class="gallery">
-                <img src="./Images/Categorised/Military/Jas39/Jas39-01.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Jas39/Jas39-02.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Jas39/Jas39-03.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Jas39/Jas39-04.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Jas39/Jas39-05.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Jas39/Jas39-06.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Jas39/Jas39-07.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Jas39/Jas39-08.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Jas39/Jas39-09.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Jas39/Jas39-10.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Jas39/Jas39-11.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Jas39/Gripen.jpg" alt="Military">
-            </div>
-        </section>
-
-    <!-- Category 5 -->
-    <section class="category">
-        <h2 >Rafale</h2>
-        <div id="Rafale" class="gallery">
-            <img src="./Images/Categorised/Military/Rafale/Rafale-01.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/Rafale/Rafale-02.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/Rafale/Rafale-03.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/Rafale/Rafale-04.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/Rafale/Rafale-05.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/Rafale/Rafale-06.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/Rafale/Rafale-07.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/Rafale/Rafale-08.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/Rafale/Rafale-09.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/Rafale/Rafale-10.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/Rafale/Rafale-11.jpg" alt="Military">
-        </div>
-    </section>
-
-    <!-- Category 6 -->
-    <section class="category">
-        <h2 >Red Arrows</h2>
-        <div id="RedArrows" class="gallery">
-            <img src="./Images/Categorised/Military/Red Arrows/Red Arrows-1.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/Red Arrows/Red Arrows-2.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/Red Arrows/Red Arrows-3.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/Red Arrows/Red Arrows-4.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/Red Arrows/Red Arrows-5.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/Red Arrows/Red Arrows-6.jpg" alt="Military">
-            <img src="./Images/Categorised/Military/Red Arrows/Red Arrows-7.jpg" alt="Military">
-        </div>
-    </section>
-
-        <!-- Category 7 -->
-        <section class="category">
-            <h2>Sar Queen</h2>
-            <div id="SARQ" class="gallery">
-                <img src="./Images/Categorised/Military/Sar Queen/Sar Queen-1.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Sar Queen/Sar Queen-2.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Sar Queen/Sar Queen-3.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Sar Queen/Sar Queen-4.jpg" alt="Military">
-            </div>
-        </section>
-
-        <!-- Category 8 -->
-        <section class="category">
-            <h2>Sk-60</h2>
-            <div id="Sk60" class="gallery">
-                <img src="./Images/Categorised/Military/Sk60/Sk60-1.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Sk60/Sk60-2.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Sk60/Sk60-3.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Sk60/Sk60-4.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Sk60/Sk60-5.jpg" alt="Military">
-            </div>
-        </section>
-
-        <!-- Category 9 -->
-        <section class="category">
-            <h2>P-8 Poseidon</h2>
-            <div id="P8" class="gallery">
-                <img src="./Images/Categorised/Military/P8/P8 RNoAF (1).jpg" alt="Military">
-                <img src="./Images/Categorised/Military/P8/P8 RNoAF (2).jpg" alt="Military">
-                <img src="./Images/Categorised/Military/P8/P8 RNoAF (3).jpg" alt="Military">
-            </div>
-        </section>
-
-        <!-- Category 10 -->
-        <section class="category">
-            <h2>Vampire</h2>
-            <div id="Vampire" class="gallery">
-                <img src="./Images/Categorised/Military/Vampire/Vampire.jpg" alt="Military">
-            </div>
-        </section>
-
-        <!-- Category 11 -->
-        <section class="category">
-            <h2>Warbirds</h2>
-            <div id="Warbirds" class="gallery">
-                <img src="./Images/Categorised/Military/Warbirds/Warbirds-01.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Warbirds/Warbirds-02.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Warbirds/Warbirds-03.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Warbirds/Warbirds-04.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Warbirds/Warbirds-05.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Warbirds/Warbirds-06.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Warbirds/Warbirds-07.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Warbirds/Warbirds-08.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Warbirds/Warbirds-09.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Warbirds/Warbirds-10.jpg" alt="Military">
-                <img src="./Images/Categorised/Military/Warbirds/Warbirds-11.jpg" alt="Military">
-            </div>
-        </section>
-
-<!-- Category 12 -->
+<!-- Category 2: F/A-18 -->
 <section class="category">
-    <h2>SAS Airlines</h2>
+    <h2>F/A-18</h2>
+    <div id="F18" class="gallery">
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F18/F18 (1).jpg" alt="F/A-18 1">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F18/F18 (2).jpg" alt="F/A-18 2">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F18/F18 (3).jpg" alt="F/A-18 3">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F18/F18 (4).jpg" alt="F/A-18 4">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F18/F18 (5).jpg" alt="F/A-18 5">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F18/F18 (6).jpg" alt="F/A-18 6">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F18/F18 (7).jpg" alt="F/A-18 7">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+    </div>
+</section>
+
+<!-- Category 3: F16 -->
+<section class="category">
+    <h2>F16</h2>
+    <div id="F16" class="gallery">
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F16/F16-05.jpg" alt="F16 1">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F16/F16 (10).jpg" alt="F16 2">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F16/F16-03.jpg" alt="F16 3">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F16/F16-06.jpg" alt="F16 4">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F16/F16-11.jpg" alt="F16 5">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F16/F16-10.jpg" alt="F16 6">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F16/F16-02.jpg" alt="F16 7">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F16/F16 (13).jpg" alt="F16 8">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F16/F16 (9).jpg" alt="F16 9">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F16/F16-09.jpg" alt="F16 10">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F16/F16 (14).jpg" alt="F16 11">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/F16/F16 (17).jpg" alt="F16 12">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+    </div>
+</section>
+
+<!-- Category 4: Jas-39 -->
+<section class="category">
+    <h2>Jas-39</h2>
+    <div id="Jas39" class="gallery">
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Jas39/Jas39-01.jpg" alt="Jas-39 1">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Jas39/Jas39-02.jpg" alt="Jas-39 2">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Jas39/Jas39-03.jpg" alt="Jas-39 3">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Jas39/Jas39-04.jpg" alt="Jas-39 4">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Jas39/Jas39-05.jpg" alt="Jas-39 5">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Jas39/Jas39-06.jpg" alt="Jas-39 6">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Jas39/Jas39-07.jpg" alt="Jas-39 7">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Jas39/Jas39-08.jpg" alt="Jas-39 8">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Jas39/Jas39-09.jpg" alt="Jas-39 9">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Jas39/Jas39-10.jpg" alt="Jas-39 10">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Jas39/Jas39-11.jpg" alt="Jas-39 11">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Jas39/Gripen.jpg" alt="Jas-39 12">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+    </div>
+</section>
+
+<!-- Category 5: Rafale -->
+<section class="category">
+    <h2>Rafale</h2>
+    <div id="Rafale" class="gallery">
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Rafale/Rafale-01.jpg" alt="Rafale 1">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Rafale/Rafale-02.jpg" alt="Rafale 2">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Rafale/Rafale-03.jpg" alt="Rafale 3">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Rafale/Rafale-04.jpg" alt="Rafale 4">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Rafale/Rafale-05.jpg" alt="Rafale 5">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Rafale/Rafale-06.jpg" alt="Rafale 6">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Rafale/Rafale-07.jpg" alt="Rafale 7">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Rafale/Rafale-08.jpg" alt="Rafale 8">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Rafale/Rafale-09.jpg" alt="Rafale 9">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Rafale/Rafale-10.jpg" alt="Rafale 10">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Rafale/Rafale-11.jpg" alt="Rafale 11">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+    </div>
+</section>
+
+<!-- Category 6: Red Arrows -->
+<section class="category">
+    <h2>Red Arrows</h2>
+    <div id="RedArrows" class="gallery">
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Red Arrows/Red Arrows-1.jpg" alt="Red Arrows 1">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Red Arrows/Red Arrows-2.jpg" alt="Red Arrows 2">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Red Arrows/Red Arrows-3.jpg" alt="Red Arrows 3">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Red Arrows/Red Arrows-4.jpg" alt="Red Arrows 4">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Red Arrows/Red Arrows-5.jpg" alt="Red Arrows 5">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Red Arrows/Red Arrows-6.jpg" alt="Red Arrows 6">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Red Arrows/Red Arrows-7.jpg" alt="Red Arrows 7">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+    </div>
+</section>
+
+<!-- Category 7: Sar Queen -->
+<section class="category">
+    <h2>Sar Queen</h2>
+    <div id="SARQ" class="gallery">
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Sar Queen/Sar Queen-1.jpg" alt="Sar Queen 1">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Sar Queen/Sar Queen-2.jpg" alt="Sar Queen 2">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Sar Queen/Sar Queen-3.jpg" alt="Sar Queen 3">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Sar Queen/Sar Queen-4.jpg" alt="Sar Queen 4">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+    </div>
+</section>
+
+<!-- Category 8: Sk-60 -->
+<section class="category">
+    <h2>Sk-60</h2>
+    <div id="Sk60" class="gallery">
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Sk60/Sk60-1.jpg" alt="Sk-60 1">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Sk60/Sk60-2.jpg" alt="Sk-60 2">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Sk60/Sk60-3.jpg" alt="Sk-60 3">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Sk60/Sk60-4.jpg" alt="Sk-60 4">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Sk60/Sk60-5.jpg" alt="Sk-60 5">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+    </div>
+</section>
+
+<!-- Category 9: P-8 Poseidon -->
+<section class="category">
+    <h2>P-8 Poseidon</h2>
+    <div id="P8" class="gallery">
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/P8/P8 RNoAF (1).jpg" alt="P-8 Poseidon 1">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/P8/P8 RNoAF (2).jpg" alt="P-8 Poseidon 2">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/P8/P8 RNoAF (3).jpg" alt="P-8 Poseidon 3">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+    </div>
+</section>
+
+<!-- Category 10: Vampire -->
+<section class="category">
+    <h2>Vampire</h2>
+    <div id="Vampire" class="gallery">
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Vampire/Vampire.jpg" alt="Vampire">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+    </div>
+</section>
+
+<!-- Category 11: Warbirds -->
+<section class="category">
+    <h2>Warbirds</h2>
+    <div id="Warbirds" class="gallery">
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Warbirds/Warbirds-01.jpg" alt="Warbirds 1">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Warbirds/Warbirds-02.jpg" alt="Warbirds 2">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Warbirds/Warbirds-03.jpg" alt="Warbirds 3">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Warbirds/Warbirds-04.jpg" alt="Warbirds 4">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Warbirds/Warbirds-05.jpg" alt="Warbirds 5">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Warbirds/Warbirds-06.jpg" alt="Warbirds 6">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Warbirds/Warbirds-07.jpg" alt="Warbirds 7">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Warbirds/Warbirds-08.jpg" alt="Warbirds 8">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Warbirds/Warbirds-09.jpg" alt="Warbirds 9">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Warbirds/Warbirds-10.jpg" alt="Warbirds 10">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Military/Warbirds/Warbirds-11.jpg" alt="Warbirds 11">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+    </div>
+</section>
+
+<!-- Category 12: Airliners -->
+<section class="category">
+    <h2>Airliners</h2>
     <div id="Airliners" class="gallery">
-        <img src="./Images/Categorised/Airliners/SAS/sas (1).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/SAS/sas (2).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/SAS/sas (3).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/SAS/sas (4).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/SAS/sas (5).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/SAS/sas (6).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/SAS/sas (7).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/SAS/sas (8).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/SAS/sas (9).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/SAS/sas (10).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/SAS/sas (11).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/SAS/sas (12).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/SAS/sas (13).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/SAS/sas (14).jpg" alt="Airliners">
+        <div class="image-container">
+            <img src="./Images/Categorised/Airliners/SAS/sas (1).jpg" alt="Airliners 1">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Airliners/SAS/sas (2).jpg" alt="Airliners 2">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Airliners/SAS/sas (3).jpg" alt="Airliners 3">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Airliners/SAS/sas (4).jpg" alt="Airliners 4">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Airliners/SAS/sas (5).jpg" alt="Airliners 5">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Airliners/SAS/sas (6).jpg" alt="Airliners 6">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Airliners/SAS/sas (7).jpg" alt="Airliners 7">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Airliners/SAS/sas (8).jpg" alt="Airliners 8">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Airliners/SAS/sas (9).jpg" alt="Airliners 9">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Airliners/SAS/sas (10).jpg" alt="Airliners 10">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Airliners/SAS/sas (11).jpg" alt="Airliners 11">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Airliners/SAS/sas (12).jpg" alt="Airliners 12">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Airliners/SAS/sas (13).jpg" alt="Airliners 13">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Airliners/SAS/sas (14).jpg" alt="Airliners 14">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
     </div>
 </section>
 
-<!-- Category 13 -->
-<section class="category">
-    <h2>Norwegian</h2>
-    <div class="gallery">
-        <img src="./Images/Categorised/Airliners/Norwegian/Norwegian (1).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/Norwegian/Norwegian (2).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/Norwegian/Norwegian (3).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/Norwegian/Norwegian (4).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/Norwegian/Norwegian (5).jpg" alt="Airliners">
-    </div>
-</section>
-
-<!-- Category 14 -->
-<section class="category">
-    <h2>Widerøe</h2>
-    <div class="gallery">
-        <img src="./Images/Categorised/Airliners/Widero/Wideroe (1).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/Widero/Wideroe (2).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/Widero/Wideroe (3).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/Widero/Wideroe (4).jpg" alt="Airliners">
-    </div>
-</section>
-
-<!-- Category 13 -->
-<section class="category">
-    <h2>Lufthansa</h2>
-    <div class="gallery">
-        <img src="./Images/Categorised/Airliners/Lufthansa/lufthansa (1).jpg" alt="Airliners">
-    </div>
-</section>
-
-<!-- Category 14 -->
-<section class="category">
-    <h2>Cityjets</h2>
-    <div class="gallery">
-        <img src="./Images/Categorised/Airliners/Cityjets/cityjets (1).jpg" alt="Airliners">
-        <img src="./Images/Categorised/Airliners/Cityjets/cityjets (2).jpg" alt="Airliners">
-    </div>
-</section>
-
-<!-- Category 15 -->
+<!-- Category 13: Cargo -->
 <section class="category">
     <h2>Cargo</h2>
     <div id="Cargo" class="gallery">
-        <img src="./Images/Categorised/Cargo/Cargo-1.jpg" alt="Cargo">
-        <img src="./Images/Categorised/Cargo/Cargo-2.jpg" alt="Cargo">
-        <img src="./Images/Categorised/Cargo/Cargo-3.jpg" alt="Cargo">
+        <div class="image-container">
+            <img src="./Images/Categorised/Cargo/Cargo-1.jpg" alt="Cargo 1">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Cargo/Cargo-2.jpg" alt="Cargo 2">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/Cargo/Cargo-3.jpg" alt="Cargo 3">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
     </div>
 </section>
 
-<!-- Category 13 -->
+<!-- Category 14: General Aviation -->
 <section class="category">
     <h2>General Aviation</h2>
     <div id="General" class="gallery">
-        <img src="./Images/Categorised/General/General-1.jpg" alt="General">
-        <img src="./Images/Categorised/General/General-2.jpg" alt="General">
+        <div class="image-container">
+            <img src="./Images/Categorised/General/General-1.jpg" alt="General Aviation 1">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
+        <div class="image-container">
+            <img src="./Images/Categorised/General/General-2.jpg" alt="General Aviation 2">
+            <img class="pin" src="./Images/pin.png" alt="Pin">
+        </div>
     </div>
 </section>
 
     <script>
-        document.addEventListener('contextmenu', event => {
-    event.preventDefault();
-}); document.querySelectorAll('.disabled').forEach(element => {element.style.pointerEvents = 'none';});document.addEventListener('selectstart', function(e) {e.preventDefault();return false;});
-function scrollToSection(sectionId) {
-            const section = document.getElementById(sectionId);
-            section.scrollIntoView({ behavior: 'smooth' });
-        }
-    </script>
+document.addEventListener('DOMContentLoaded', function () {
+    const images = document.querySelectorAll('.gallery img:not(.pin)');
+    let isScrolling = false;
+    let scrollTimeout;
+    let lastScrollTop = 0;
+    let scrollSpeed = 0;
 
+    function calculateScrollSpeed() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollSpeed = Math.abs(scrollTop - lastScrollTop);
+        lastScrollTop = scrollTop;
+    }
+
+    function startWaving() {
+        if (!isScrolling) {
+            isScrolling = true;
+            images.forEach(img => {
+                img.classList.add('waving');
+                img.style.transition = 'none';
+            });
+        }
+    }
+
+    function stopWaving() {
+        isScrolling = false;
+        images.forEach(img => {
+            img.classList.remove('waving');
+            img.style.transition = 'transform 0.5s ease-in-out';
+            img.style.transform = 'rotate(0deg)';
+        });
+    }
+
+    function adjustWavingSpeed() {
+        const minSpeed = 1.2;
+        const maxSpeed = 0.4;
+        const speedRange = maxSpeed - minSpeed;
+
+        const animationDuration = Math.max(minSpeed, maxSpeed - (scrollSpeed / 100));
+
+        images.forEach(img => {
+            img.style.setProperty('--wave-speed', `${animationDuration}s`);
+        });
+    }
+
+    window.addEventListener('scroll', () => {
+        calculateScrollSpeed();
+        adjustWavingSpeed();
+        startWaving();
+
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(() => {
+            stopWaving();
+        }, 1000);
+    });
+
+    startWaving();
+});
+
+document.addEventListener('contextmenu', event => {
+    event.preventDefault();
+});
+
+document.querySelectorAll('.disabled').forEach(element => {
+    element.style.pointerEvents = 'none';
+});
+
+document.addEventListener('selectstart', function(e) {
+    e.preventDefault();
+    return false;
+});
+
+function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+    } else {
+        console.error(`Element with ID '${sectionId}' not found.`);
+    }
+}
+    </script>
 </body>
 </html>

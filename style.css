@@ -82,6 +82,10 @@ header {
 .top-banner h1, .top-banner h2 {
     position: relative;
     z-index: 2;
+        font-size: 100px;
+    font-family: "Better Signature", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h1 {
